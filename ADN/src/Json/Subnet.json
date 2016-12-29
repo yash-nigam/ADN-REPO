@@ -1,0 +1,12 @@
+{
+  "parameters": [
+    {
+      "networkIdentifier": "10.12.1.0",
+      "cidr": 24,
+      "note": "TEST Subnet 27 DEC"
+    },
+    {
+      "name": "dal09.pod01"
+    }
+  ]
+}

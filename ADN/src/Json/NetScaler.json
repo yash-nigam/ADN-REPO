@@ -1,0 +1,85 @@
+{
+  "parameters": [
+    {
+      "complexType": "SoftLayer_Container_Product_Order_Network_Application_Delivery_Controller",
+      "location": "DALLAS09",
+      "packageId": 192,
+      "prices": [
+        {
+          "id": 44964
+        },
+        {
+          "id": 17238
+        }
+      ],
+      "itemCategoryQuestionAnswers": [
+        {
+          "answer": "1",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 14
+        },
+        {
+          "answer": "2",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 15
+        },
+        {
+          "answer": "Explaination Why additional IPs are needed",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 16
+        },
+        {
+          "answer": "MyName",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 9
+        },
+        {
+          "answer": "QE",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 10
+        },
+        {
+          "answer": "youremail@domain.test",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 11
+        },
+        {
+          "answer": "080010101010",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 12
+        },
+        {
+          "answer": "1",
+          "categoryCode": "static_sec_ip_addresses",
+          "categoryId": 53,
+          "questionId": 13
+        }
+      ],
+      "quantity": 1,
+      "hardware": [
+        {
+          "primaryBackendNetworkComponent": {
+            "networkVlan": {
+              "primarySubnet": {
+                "id": 1208347
+              }
+            }
+          },
+	  "primaryNetworkComponent": {
+            "networkVlan": {
+              "id": 1230019 
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+

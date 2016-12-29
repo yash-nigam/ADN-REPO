@@ -1,0 +1,75 @@
+{
+  "parameters": [
+    {
+      "complexType": "SoftLayer_Container_Product_Order_Hardware_Server",
+      "location": "DALLAS09",
+      "packageId": 257,
+      "quantity": 1,
+      "hardware": [
+        {
+          "hostname": "ADN-BMtest1",
+          "domain": "ibm.com",
+          "primaryBackendNetworkComponent": {
+            "networkVlanId": 1229225,
+            "networkVlan": {
+              "id": 1229225,
+              "primarySubnetId": 1208347,
+              "vlanNumber": 2072
+            }
+          },
+          "primaryNetworkComponent": {
+            "networkVlan": {
+              "id": 1230019
+            }
+          }
+        }
+      ],
+      "useHourlyPricing": 0,
+      "postInstallScriptUri": "https://gist.githubusercontent.com/yash-nigam/bb68c95dbc57f33923ee1ce27295fb63/raw/509a2dd873bf59a732658b1ae0d1f40d36119c16/db-install.sh",
+      "prices": [
+        {
+          "id": "50357"
+        },
+        {
+          "id": "49759"
+        },
+        {
+          "id": "876"
+        },
+        {
+          "id": "55"
+        },
+        {
+          "id": "57"
+        },
+        {
+          "id": "44988"
+        },
+        {
+          "id": "273"
+        },
+        {
+          "id": "21"
+        },
+        {
+          "id": "49495"
+        },
+        {
+          "id": "906"
+        },
+        {
+          "id": "58"
+        },
+        {
+          "id": "49515"
+        },
+        {
+          "id": "420"
+        },
+        {
+          "id": "418"
+        }
+      ]
+    }
+  ]
+}

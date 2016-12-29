@@ -1,0 +1,9 @@
+{
+	"parameters": [
+		{
+			"name": "Network2-27DEC",			
+			"networkIdentifier": "10.12.0.0",
+			"cidr": 16
+		}
+	]
+}

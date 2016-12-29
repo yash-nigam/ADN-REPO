@@ -1,0 +1,20 @@
+{
+  "parameters": [
+    {
+      "complexType": "SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Vault",
+      "quantity": 1,
+      "location": "DALLAS09",
+      "packageId": 0,
+      "prices": [
+        {
+          "id": 1045
+        }
+      ],
+      "hardware": [
+        {
+          "id": 487260
+        }
+      ]
+    }
+  ]
+}

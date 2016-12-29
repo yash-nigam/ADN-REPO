@@ -1,0 +1,15 @@
+{
+  "parameters": [
+    {
+      "complexType": "SoftLayer_Container_Product_Order_Network_Storage_Hub",
+      "quantity": 1,
+      "packageId": 206,
+      "prices": [
+        {
+          "id": 16984
+        }
+      ]
+    }
+  ]
+}
+

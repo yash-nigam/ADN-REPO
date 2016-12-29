@@ -1,0 +1,34 @@
+{
+  "parameters": [
+    {
+      "hostname": "ADNTest3-app",
+      "domain": "ibm.com",
+      "startCpus": 1,
+      "maxMemory": 2048,
+      "datacenter": {
+        "name": "dal09"
+      },
+      "hourlyBillingFlag": true,
+      "localDiskFlag": true,
+      "operatingSystemReferenceCode": "UBUNTU_LATEST",
+      "privateNetworkOnlyFlag": false,
+      "primaryBackendNetworkComponent": {
+        "complexType": "SoftLayer_Virtual_Guest_Network_Component",
+        "networkVlan": {
+          "primarySubnetId": 1208347
+        }
+      },
+      "primaryNetworkComponent": {
+        "networkVlan": {
+          "id": 1230019
+        }
+      },
+      "networkComponents": [
+        {
+          "maxSpeed": 1000
+        }
+      ],
+      "postInstallScriptUri": "https://gist.githubusercontent.com/yash-nigam/1baf2197ab8ed1358e81d5e92bcfa0d8/raw/01512930d88835ffe69e0528c006833f7822dec2/jdk-tomcat-install.sh"
+    }
+  ]
+}

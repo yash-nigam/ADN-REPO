@@ -1,0 +1,25 @@
+{
+  "parameters": [
+    {
+      "packageId": 222,
+      "location": 449494,
+      "osFormatType": {
+        "id": 12,
+        "keyName": "LINUX"
+      },
+      "complexType": "SoftLayer_Container_Product_Order_Network_PerformanceStorage_Iscsi",
+      "prices": [
+        {
+          "id": 40672
+        },
+        {
+          "id": 40682
+        },
+        {
+          "id": 40792
+        }
+      ],
+      "quantity": 1
+    }
+  ]
+}
